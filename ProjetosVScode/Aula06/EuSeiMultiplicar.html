@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eu sei multiplicar...</title>
+</head>
+<body>
+    <h1>Eu sei multiplicar...</h1>
+    <hr>
+    <script>
+        /*
+        var v1=eval(prompt("Insira o primeiro valor entre 0 e 10", ""));
+        var v2=eval(prompt("Insira o segundo valor entre 0 e 10", ""));
+        var r=eval(prompt("Insira o resultado da multiplicação de: " + v1 + " por " + v2, ""));
+        */
+        
+        var v1 = Math.round(Math.random()*10);
+        var v2 = Math.round(Math.random()*10);
+        var r=eval(prompt("Insira o resultado da multiplicação de: " + v1 + " por " + v2, ""));
+
+        if((v1*v2) == r){
+            alert("Acertou!");
+        }else{
+            alert("Errou!");
+        }
+    </script>
+</body>
+</html>
