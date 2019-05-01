@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eu Tenho Sorte...</title>
+    <style>
+        img{
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var numero1 = Math.round(Math.random()*5)+1;
+        var numero2 = Math.round(Math.random()*5)+1;
+        document.write("<img src='" + numero1 + ".png'>");
+        document.write("<img src='" + numero2 + ".png'>");
+        //document.write("<h1>A soma dos numeros " + numero1 + " + " + numero2 + " é: " + (numero1 + numero2) + "</h1>");
+        if(numero1 > numero2){
+            document.write("<h1>O primeiro dado é maior que o segundo.</h1>");
+        }else if(numero1 < numero2){
+            document.write("<h1>O segundo dado é maior que o primeiro.</h1>");
+        }else{
+            document.write("<h1>Os dados são iguais.</h1>");
+        }
+    </script>
+</body>
+</html>
