@@ -1,0 +1,29 @@
+h2{
+    font-family: Verdana;
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.resultado{
+    font-family: Verdana;
+    font-size: 24px;
+}
+section{
+    background: white;
+    color: red;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.inline_element{
+    display: inline-block;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="game.js"></script>
+</head>
+<body>
+    <h1>Game</h1>
+    <hr>
+    <section>
+        <div class="container">
+            <div class="inline_element">
+                <img id="die1" src="capa.png">
+                <h2 onClick="J1(r=Math.round(Math.random()*5)+1);" id="jogador1">Jogador 1</h2>
+            </div>
+            <div class="inline_element">
+                    <img id="die2" src="capa.png">
+                    <h2 onClick="J2(x=Math.round(Math.random()*5)+1);" id="jogador2"></h2>
+            </div>
+        </div>
+        <br>
+        <h1 id="resultado">Resultado</h1>
+    </section>
+
+</body>
+</html>
