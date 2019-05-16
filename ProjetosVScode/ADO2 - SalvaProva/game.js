@@ -24,7 +24,15 @@ function J1(joga1){
         dado1.src = "6.png";
         break;
     }
-    jogador1.innerHTML=("");
+    
+    var aux = jogador1.textContent;
+    var aux2 = " ";
+    for(var i=0;i<aux.length;i++){
+        aux2 = aux2 + aux[i].toUpperCase();
+
+    }
+    
+    jogador1.innerHTML=(aux2);
     jogador2.innerHTML=("Jogador 2");
     aguarde.innerHTML=("");
 }
