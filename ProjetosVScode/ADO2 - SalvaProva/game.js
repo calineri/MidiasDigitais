@@ -1,3 +1,10 @@
+/*
+Tecnologia em jogos Digitais - Noturno - 3o semestre - 2019
+
+Alunos: Celso Alineri
+        Wellington Maciel
+
+*/
 function J1(joga1){
     var dado1 = document.getElementById("die1");
     var jogador1 = document.getElementById("jogador1");
